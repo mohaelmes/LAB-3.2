@@ -105,6 +105,11 @@ Prueba las rutas utilizando los métodos HTTP correspondientes.
 
 El proyecto incluye diferentes tipos de pruebas. Para ejecutarlas, asegúrate de estar en el entorno del proyecto y de que las dependencias necesarias están instaladas. Luego ejecuta los siguientes comandos según el tipo de prueba:
 
+Asegúrate de cambiar de directorio al de tests/
+```
+cd tests
+```
+
 ### Pruebas unitarias e integradas
 
 Para verificar la funcionalidad de los métodos y las rutas de la API:
