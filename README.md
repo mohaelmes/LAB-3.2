@@ -31,3 +31,23 @@ Para cifrar el archivo secrets.yaml con la clave PGP, utilizamos el siguiente co
 ```
 sops -e --pgp /pgp/sops_functional_tests_key.asc secrets.yaml > secrets.enc.yaml
 ```
+
+Seguimos los pasos de instalación de sops y gpg:
+
+![image](https://github.com/user-attachments/assets/9a4809a3-9ee5-4e19-9549-80fb421552c8)
+
+Copiamos la clave a nuestro directorio actual:
+![image](https://github.com/user-attachments/assets/38ed39b3-50ba-4287-a4c5-6633e86e6a91)
+
+![image](https://github.com/user-attachments/assets/0b51db0b-c09a-45a6-ade7-2b1a4dc2226b)
+
+Verificamos con ls -l si el archivo cifrado:
+![image](https://github.com/user-attachments/assets/dbe4590a-e869-492a-a434-eeaf8b856a80)
+
+
+Con nano podemos ver el archivo:
+![image](https://github.com/user-attachments/assets/0411de28-3342-4313-9a85-380f87413b9e)
+
+
+
+
