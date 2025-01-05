@@ -24,3 +24,10 @@ Instalamos las dependencias necesarias:
 
 En mi caso instalé sops con brew:
 ![image](https://github.com/user-attachments/assets/f19577a9-5c05-41af-af44-8261d488205c)
+
+
+Para cifrar el archivo secrets.yaml con la clave PGP, utilizamos el siguiente comando:
+
+```
+sops -e --pgp /pgp/sops_functional_tests_key.asc secrets.yaml > secrets.enc.yaml
+```
