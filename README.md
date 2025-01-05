@@ -133,3 +133,8 @@ pytest tests/test_performance.py
 ```
 
 Los resultados se mostrarán directamente en la terminal.
+
+También podemos usar pytest general (desde la raíz del proyecto):
+
+
+![image](https://github.com/user-attachments/assets/f79695ba-61a5-42f1-a455-3d38480efe5c)
