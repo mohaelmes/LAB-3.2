@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# LAB-2.7
 
 ## 1. Instalar un linter 
 En el entorno virtual, instalamos los linters:
