@@ -55,7 +55,7 @@ Con nano podemos ver el archivo:
 ![image](https://github.com/user-attachments/assets/89ff7e8a-d705-4aff-a227-96794054ef0e)
 
 
-Podremos encriptar y desencriptar usando:
+Podremos , además, encriptar y desencriptar (es necesario tener instalado previamente make) usando:
 
 ```
 make encrypt
