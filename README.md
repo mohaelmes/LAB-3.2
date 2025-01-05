@@ -50,6 +50,21 @@ Con nano podemos ver el archivo:
 ![image](https://github.com/user-attachments/assets/0411de28-3342-4313-9a85-380f87413b9e)
 
 
->>>>>>> 6901a9fd5667f6844e29b2e7fcedbbde9cafd16e
+
+## 4. Makefile
+![image](https://github.com/user-attachments/assets/89ff7e8a-d705-4aff-a227-96794054ef0e)
 
 
+Podremos , además, encriptar y desencriptar (es necesario tener instalado previamente make) usando:
+
+```
+make encrypt
+
+```
+
+o
+
+```
+make decrypt
+
+```
